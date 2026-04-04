@@ -1,0 +1,52 @@
+.bg-image {
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-position: top;
+  height: 98vh;
+  background-color: #000;
+}
+
+.cursor {
+  display: inline-block;
+  width: 05px;
+  height: 30px;
+  background-color: black;
+  margin-left: 5px;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: black;
+  }
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #444;
+}
+
+.menu-icon {
+  color: white;
+  font-size: 0.5cm;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 2rem;
+  margin: 0 10px;
+}
