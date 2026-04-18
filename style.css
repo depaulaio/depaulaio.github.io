@@ -2,14 +2,14 @@
   background-image: url('img/background.jpg');
   background-size: cover;
   background-position: top;
-  height: 98vh;
+  height: 110vh;
   background-color: #000;
 }
 
 .cursor {
   display: inline-block;
   width: 05px;
-  height: 30px;
+  height: 20px;
   background-color: black;
   margin-left: 5px;
   animation: blink 0.7s step-end infinite;
