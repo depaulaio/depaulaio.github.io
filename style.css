@@ -2,7 +2,7 @@
   background-image: url('img/background.jpg');
   background-size: cover;
   background-position: top;
-  height: 110vh;
+  height: 100vh;
   background-color: #000;
 }
 
@@ -17,7 +17,7 @@
 
 @keyframes blink {
   0%, 100% {
-    background-color: transparent;
+    background-color: black;
   }
   50% {
     background-color: black;
@@ -50,3 +50,4 @@
   font-size: 2rem;
   margin: 0 10px;
 }
+
